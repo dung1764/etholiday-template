@@ -16,7 +16,7 @@
 }
 ```
 ## html標簽說明
-### 最外層，所有html元件都要放在這裡面
+### 一定要先放最外層，後面所有html元件都要放在這中間
 ```html
 <!-- all -->
 <div id="et-column">
@@ -25,6 +25,7 @@
 <!-- end all -->
 ```
 ### 滿版圖一般用來放大圖
+![Alt text](/images/005.jpg)
 ```html
 <!-- 1 full -->
 <div class="et-column">
@@ -35,9 +36,10 @@
 </div>
 <!-- end 1 full -->
 ```
-### 2:3比例
+### 2:3比例 (圖大)
+![Alt text](/images/001.jpg)
 ```html
-<!-- 2:3 -->
+<!-- 2:3 圖大 -->
 <div class="et-column ml">
 	<div>
 		<div class="pad">
@@ -53,11 +55,33 @@
 		</div>
 	</div>
 </div>
-<!-- end 2:3 -->
+<!-- end 2:3 圖大 -->
 ```
-### 3:2比例
+### 2:3比例 (圖小)
+![Alt text](/images/007.jpg)
 ```html
-<!-- 3:2 -->
+<!-- 2:3 圖小 -->
+<div class="et-column ml">
+	<div>
+		<div class="pad">
+			<img src="https://picsum.photos/g/600/400/?random" alt="">
+		</div>
+	</div>
+	<div>
+		<div class="pad">
+			<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png" alt="">
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+			</p>
+		</div>
+	</div>
+</div>
+<!-- end 2:3圖小 -->
+```
+### 3:2比例 (圖大)
+![Alt text](/images/003.jpg)
+```html
+<!-- 3:2 圖大 -->
 <div class="et-column mr">
 	<div>
 		<div class="pad">
@@ -73,9 +97,31 @@
 		</div>
 	</div>
 </div>
-<!-- end 3:2 -->
+<!-- end 3:2 圖大 -->
+```
+### 3:2比例 (圖小)
+![Alt text](/images/006.jpg)
+```html
+<!-- 3:2 圖小 -->
+<div class="et-column mr">
+	<div>
+		<div class="pad">
+			<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png" alt="">
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+			</p>
+		</div>
+	</div>
+	<div>
+		<div class="pad">
+			<img src="https://picsum.photos/g/600/400/?random" alt="">
+		</div>
+	</div>
+</div>
+<!-- end 3:2 圖小 -->
 ```
 ### 1:1比例
+![Alt text](/images/002.jpg)
 ```html
 <!-- 1:1 -->
 <div class="et-column mm">
@@ -93,6 +139,7 @@
 <!-- end 1:1 -->
 ```
 ### 1:1:1比例
+![Alt text](/images/004.jpg)
 ```html
 <!-- 1:1:1 -->
 <div class="et-column mt">
