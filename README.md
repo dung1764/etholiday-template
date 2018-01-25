@@ -161,7 +161,8 @@
 </div>
 <!-- end 1:1:1 -->
 ```
-### 輪播，可以放在各比例的 pad div 底下
+### 輪播，可以替換掉一般圖片
+![Alt text](/images/008.jpg)
 ```html
 <!-- 輪播圖片 -->
 <div class='slider'>
