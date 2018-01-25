@@ -5,11 +5,11 @@
 可以點擊 [美化html](https://www.cleancss.com/html-beautify/ "html beautifier") 彌補中台編碼亂相.
 ### 展開中台css設定
 ```css
-//外層背景顏色
+/* 整各精進背景顏色 */
 #et-column{
     background: url(https://www.transparenttextures.com/patterns/ecailles.png) repeat;
 }
-//內層背景+文顏色
+/* 欄位背景顏色 */
 .et-bg{
     background-color: #b5b5b5;
     color: white;
