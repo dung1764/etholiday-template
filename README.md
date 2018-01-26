@@ -178,3 +178,48 @@
 	<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png" class="f">
 <!-- end 浮動png圖片 -->
 ```
+### 表格搭配圖片標題
+![Alt text](/images/009.jpg)
+```html
+<!-- 表格 -->
+<div class="et-column">
+	<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png">
+	<table>
+		<thead>
+			<tr>
+				<th>均溫</th>
+				<th>1月</th>
+				<th>2月</th>
+				<th>3月</th>
+				<th>4月</th>
+				<th>5月</th>
+				<th>6月</th>
+				<th>7月</th>
+				<th>8月</th>
+				<th>9月</th>
+				<th>10月</th>
+				<th>11月</th>
+				<th>12月</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>平均高溫</td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+				<td>25</td>
+				<td>26</td>
+				<td>27</td>
+				<td>28.5</td>
+				<td>25.5</td>
+				<td>24.5</td>
+				<td>22</td>
+				<td>24</td>
+				<td>20</td>
+			</tr>
+		</tbody>
+	</table>
+</div>	
+<!-- end 表格 -->
+```
