@@ -164,13 +164,21 @@
 ### 輪播，可以替換掉一般圖片
 ![Alt text](/images/008.jpg)
 ```html
-<!-- 輪播圖片 -->
+<!-- 輪播圖片 2張 -->
 <div class='slider'>
-	<div class='slide1' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
-	<div class='slide2' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
-	<div class='slide3' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
+	<div class='slide2-1' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
+	<div class='slide2-2' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
 </div>
-<!-- end 輪播圖片 -->
+<!-- end 輪播圖片 2張 -->
+```
+```html
+<!-- 輪播圖片 3張 -->
+<div class='slider'>
+	<div class='slide3-1' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
+	<div class='slide3-2' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
+	<div class='slide3-3' style="background: url(https://picsum.photos/g/600/400/?random) no-repeat center;"></div>
+</div>
+<!-- end 輪播圖片 3張 -->
 ```
 ### 圖片上層，通常在大圖上放這個物件
 ```html
