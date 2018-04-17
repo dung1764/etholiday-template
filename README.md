@@ -40,7 +40,7 @@
 ![Alt text](/images/001.jpg)
 ```html
 <!-- 2:3 圖大 -->
-<div class="et-column mlb">
+<div class="et-column ml">
 	<div>
 		<div class="pad">
 			<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png" alt="">
@@ -64,17 +64,17 @@
 <div class="et-column mls">
 	<div>
 		<div class="pad">
-			<img src="https://picsum.photos/g/600/400/?random" alt="">
-		</div>
-	</div>
-	<div>
-		<div class="pad">
 			<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png" alt="">
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
 			</p>
 		</div>
 	</div>
+	<div>
+		<div class="pad">
+			<img src="https://picsum.photos/g/600/400/?random" alt="">
+		</div>
+	</div>	
 </div>
 <!-- end 2:3圖小 -->
 ```
@@ -82,12 +82,7 @@
 ![Alt text](/images/003.jpg)
 ```html
 <!-- 3:2 圖大 -->
-<div class="et-column mr">
-	<div>
-		<div class="pad">
-			<img src="https://picsum.photos/g/600/400/?random" alt="">
-		</div>
-	</div>
+<div class="et-column mrb">
 	<div>
 		<div class="pad">
 			<img src="https://cdn.bloomnation.com/media/vendor/1110/f/l/300X100/floral-heights-logo_1.png" alt="">
@@ -96,6 +91,11 @@
 			</p>
 		</div>
 	</div>
+	<div>
+		<div class="pad">
+			<img src="https://picsum.photos/g/600/400/?random" alt="">
+		</div>
+	</div>	
 </div>
 <!-- end 3:2 圖大 -->
 ```
